@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    </script>
+</head>
+<body>
+     <div id="inhalt">HI</div>
+     <button  onclick="anzeigen()">anzeigen</button>
+     <script>
+        const inhaltElem = document.getElementById("inhalt");
+        function anzeigen() {
+
+            let arr = [
+                { vn:"Donald", nn:"Duck"  },
+                { vn:"Daisy", nn: "Duck"  },
+                { vn:"Mickey", nn: "Mouse"  }
+            ];
+/*
+            let json =  JSON.stringify(arr);
+            alert(json);
+            arr = JSON.parse(json);
+            alert(arr);     */
+            let s = "";
+            for (let i = 0; i < arr.length; i++) {
+                let o = arr[i];
+                s += "<p>" + o.vn + " " + o.nn + "</p>";
+                // console.log(s);
+            }
+
+            inhaltElem.style.color="red";
+            inhaltElem.innerHTML = s;
+        }
+     </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
