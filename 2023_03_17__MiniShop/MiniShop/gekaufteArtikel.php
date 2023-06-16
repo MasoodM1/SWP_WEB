@@ -265,7 +265,7 @@ session_start();
                     echo "<h3>" . $row["ArtName"] . "</h3>";
                     echo "<img src='" . $row["Bild"] . "' alt='" . $row["ArtName"] . "' width=50%>";
                     echo "<h6>Preis: " . $row["Preis"] . "€</h6>";
-                    echo "<h5>Preis: " . $row["Preis"] * $row["Anzahl"] . "€ gesammt</h5>";
+                    echo "<h5>Preis: " . $row["Preis"] * $row["Anzahl"] . "€ gesamt</h5>";
                     echo "<h6>Stück: " . $row["Anzahl"] . "</h6>";
                     echo "<h5>Gekauft am: " . $row["Zeitpunkt"] . "</h5>";
                     echo "</div>";

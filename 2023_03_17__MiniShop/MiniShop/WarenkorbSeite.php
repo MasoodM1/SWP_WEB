@@ -273,7 +273,7 @@ if (!isset($_SESSION['userid'])) {
                     echo "<h3>" . $row["ArtName"] . "</h3>";
                     echo "<img src='" . $row["Bild"] . "' alt='Bild nicht gefunden' width=50%>";
                     echo "<h6>" . $row["Preis"] . "€</h6>";
-                    echo "<h5>" . $row["Preis"] * $row["Anzahl"] . "€ gesammt</h5>";
+                    echo "<h5>" . $row["Preis"] * $row["Anzahl"] . "€ gesamt</h5>";
                     echo "<h6>Anzahl:" . $row["Anzahl"] . "</h6>";
                     echo "<form method = 'post' action = 'Delete.php?ArtID=" . $row["ArtID"] . "'>";
                     echo "<button class='btn' type='submit'>Löschen</button>";
