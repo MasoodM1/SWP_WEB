@@ -62,7 +62,11 @@ INSERT INTO Kategorie (KatName) VALUES
 INSERT INTO Artikel (ArtName, Preis, Bild, KatID) VALUES
 ('MacBook Pro', 799.99, 'Bilder/MacBookPro.png', 1),
 ('iPhone 14', 1109.99, 'Bilder/iPhone14.png', 2),
-('Galaxy Tab S6', 649.99, 'Bilder/GalaxyTabS6.png', 3);
+('Galaxy Tab S6', 649.99, 'Bilder/GalaxyTabS6.png', 3),
+('Ideapad 3', 949.99, 'Bilder/Ideapad3.png', 1),
+('ThinkBook 14', 1299.99, 'Bilder/ThinkBook14.png', 1),
+('iPhone 11 Pro', 499.99, 'Bilder/iPhone14.png', 2),
+('Galaxy S23 Ultra', 1199.99, 'Bilder/GalaxyS23Ultra.png', 2),
+('iPad Pro', 699.99, 'Bilder/iPadPro.png', 3),
+('Galaxy Tab S8', 899.98, 'Bilder/GalaxyTabS8.png', 3);
 
-INSERT INTO gekaufteArtikel (UserID, ArtID, ArtName, Bild, Preis, Anzahl, Zeitpunkt) VALUES
-(1, 1, 'MacBook Pro', 'Bilder/MacBookPro.png', 799.99, 3, now());
