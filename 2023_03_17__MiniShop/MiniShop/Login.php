@@ -25,7 +25,7 @@ if (mysqli_num_rows($result) > 0) {
     $_SESSION["userid"] = $UserID["ID"];
     header("Location: Startseite.php");
 } else {
-    echo "Benutzername oder Passwort falsch!";
+    header("Location: Login!.html");
 }
 $conn->close();
 ?>
