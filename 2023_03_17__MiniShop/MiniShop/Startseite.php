@@ -276,7 +276,7 @@ session_start();
     <script>
 
         function formatResultAsHtmlDefinitionList(arr) {
-            let s = "<dl>";
+            let s = "";
             for (let i = 0; i < arr.length; i++) {
                 let obj = arr[i];
                 s += "<div class='col-md-6 col-sm-12 text-center'>";
@@ -291,7 +291,7 @@ session_start();
                 s += "</div>";
                 s += "</div>";
             }
-            return s + "</dl>";
+            return s;
         }
 
         function showArticle(idvalue) {
